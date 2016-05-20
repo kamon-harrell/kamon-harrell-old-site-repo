@@ -1,7 +1,9 @@
 body {
-  background-color:#404040; 
   font-family: helvetica;
+  background-color:#404040; 
   border: 5px groove #B8B8B8;
+  padding: 20px;
+
 }
 
  h1, h2, h3 {
