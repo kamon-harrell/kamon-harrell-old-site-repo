@@ -1,7 +1,6 @@
 body {
   background-color:#404040; 
   font-family: helvetica;
-  text-decoration-color:#B8B8B8 ;
 }
 
 h1, h2, h3 {
@@ -12,3 +11,6 @@ a {
   color: #D0D0D0;
 }
 
+p {
+  color:#B8B8B8;
+}
