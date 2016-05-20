@@ -1,8 +1,9 @@
 body {
   background-color:#404040; 
   font-family: helvetica;
-  margin: 5px 10px 15px 0;
-  border: 25px solid gray;
+  margin: 5px 5px 5px 5px;
+  border: 15px solid gray;
+  padding: 10px 10px 10px 10px ;
 }
 
  h1, h2, h3 {
