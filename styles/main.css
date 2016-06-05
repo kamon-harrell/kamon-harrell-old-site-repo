@@ -4,13 +4,59 @@ body {
   background-repeat: repeat-y;
   background-attachment: fixed;
   background-position: center;
-  margin: 0;
-  padding: 0;
+  margin: auto;
+  padding: 3% 10%;
   height: 100%;
 }
 
 h1 {
   text-align: center;
+  background-color: #808080;
+  border: 2px solid black;
+  opacity: 0.85;
+  margin: 10% 20%;
+  padding: 3% 7%;
+}
+
+.bodycontainer {
+  background-color: #808080;
+  border: 2px solid black;
+  opacity: 0.85;
+  margin: 10% 20%;
+  padding: 3% 7%;
+
+}
+
+.bloglist {
+  background-color: #808080;
+  border: 2px solid black;
+  opacity: 0.85;
+  margin: 10% 20%;
+  padding: 3% 7%;
+}
+
+a:link {
+color: black;
+background-color: transparent;
+text-decoration: none;
+}
+
+a:visited {
+  color: teal;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:hover {
+  color: teal;
+  background-color: transparent;
+  text-decoration: underline;
+}
+
+a:active {
+  color: yellow;
+  background-color: transparent;
+  text-decoration: underline; 
 }
 
 header{
@@ -22,8 +68,6 @@ header{
 footer {
   width: 100%;
   margin-top: 10%;
-  border: solid 2px black;
-  border-radius: 50%;
   position: relative;
   top: 20px;
   text-align: center;
