@@ -18,12 +18,20 @@ h1 {
   padding: 3% 7%;
 }
 
+.bannercontainer {
+  position: relative;
+  left: 16%;
+  margin: 2% auto 2% auto;
+  padding: 3% 3%;
+
+}
+
 .bodycontainer {
   background-color: #808080;
   border: 2px solid black;
   opacity: 0.93;
-  margin: 10% 20%;
-  padding: 3% 7%;
+  margin: 10%;
+  padding: 2%;
 
 }
 
@@ -31,8 +39,8 @@ h1 {
   background-color: #808080;
   border: 2px solid black;
   opacity: 0.93;
-  margin: 10% 20%;
-  padding: 3% 7%;
+  margin: 10%;
+  padding: 2%;
 }
 
 a:link {
@@ -42,7 +50,7 @@ text-decoration: none;
 }
 
 a:visited {
-  color: teal;
+  color: black;
   background-color: transparent;
   text-decoration: none;
 }
@@ -58,8 +66,7 @@ a:active {
   background-color: transparent;
   text-decoration: underline; 
 }
-
-header{
+header {
   width: 100%;
   margin: auto;
   top: 20px;
