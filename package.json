@@ -1,0 +1,29 @@
+git branch{
+  "name": "personal",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "babel": "^6.5.2",
+    "body-parser": "^1.15.2",
+    "nodemon": "^1.10.2",
+    "react": "^15.3.2",
+    "redux": "^3.6.0",
+    "webpack": "^1.13.2",
+    "webpack-dev-server": "^1.16.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "start":  "node-inspector --web-port=8888 & nodemon --debug index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kamon-harrell/kamon-harrell.github.io.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kamon-harrell/kamon-harrell.github.io/issues"
+  },
+  "homepage": "https://github.com/kamon-harrell/kamon-harrell.github.io#readme"
+}
