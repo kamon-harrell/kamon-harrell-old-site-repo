@@ -1,29 +1,35 @@
-git branch{
-  "name": "personal",
+{
+  "name": "boilerplate",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
-  "dependencies": {
-    "babel": "^6.5.2",
-    "body-parser": "^1.15.2",
-    "nodemon": "^1.10.2",
-    "react": "^15.3.2",
-    "redux": "^3.6.0",
-    "webpack": "^1.13.2",
-    "webpack-dev-server": "^1.16.1"
-  },
-  "devDependencies": {},
-  "scripts": {
-    "start":  "node-inspector --web-port=8888 & nodemon --debug index.js"
-  },
+  "description": "A light, customizable frontend starter kit and component library",
+  "author": "Imarc",
+  "license": "Apache-2.0",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/kamon-harrell/kamon-harrell.github.io.git"
+    "url": "git+https://github.com/kamon-harrell/New"
   },
-  "author": "",
-  "license": "ISC",
   "bugs": {
-    "url": "https://github.com/kamon-harrell/kamon-harrell.github.io/issues"
+    "url": "https://github.com/imarc/boilerplate/issues"
   },
-  "homepage": "https://github.com/kamon-harrell/kamon-harrell.github.io#readme"
+  "homepage": "https://github.com/imarc/boilerplate#readme",
+  "private": true,
+  "scripts": {
+    "docs": "gulp docs",
+    "clean": "gulp clean",
+    "build": "gulp build",
+    "watch": "gulp watch",
+    "serve": "gulp serve"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "browser-sync": "^2.17.5",
+    "gulp": "^3.9.1",
+    "gulp-autoprefixer": "^3.1.1",
+    "gulp-csscomb": "^3.0.8",
+    "gulp-sass": "^2.3.2",
+    "gulp-sourcemaps": "^2.2.0",
+    "node-sass": "^3.10.1",
+    "sassdoc": "^2.1.20",
+    "sassdoc-theme-boilerplate": "^1.0"
+  }
 }

@@ -1,49 +1,200 @@
 <!DOCTYPE html>
-<html>
-  <head>
-    <meta charset="UTF-8">
-    <link href="styles/main.css" rel="stylesheet">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
-    <script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
-  </head>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <title>Kamon Harrell</title>
+        <meta name="viewport" content="width=device-width" />
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link rel="stylesheet" type="text/css" href="css/styles.css" media="all" />
+    </head>
+    <body>
+            <header class="primary sticky">
+                <div class="container">
+                    <div class="header-content">
+                        <div class="branding">
+                            <a href="https://github.com/kamon-harrell">
+                                <img src="/img/transparent_logo.png" alt="Title Image">
+                            </a>
+                        </div>
+                        <div class="desktop">
+                            <nav aria-label="Primary Desktop Navigation" class="primary">
+                                <ul>
+                                    <li class="mega">
+                                        <a href="">Need A Menu? <i class="fa fa-caret-down" aria-hidden="true"></i></a>
+                                        <div class="dropdown">
+                                            <div class="menu">
+                                                <div>
+                                                    <ul>
+                                                        <li>
+                                                            <a href="">Home</a>
+                                                        </li>
+                                                        <!-- <li>
+                                                            <a href="">About Us</a>
+                                                        </li>
+                                                        <li>
+                                                            <a href="">Contact</a>
+                                                        </li> -->
+                                                    </ul>
+                                                </div>
+                                                <div>
+                                                    <h3>Scroll down for more!</h3>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </li>
+                                </ul>
+                            </nav>
+                        </div>
+                    </div>
+                </div>
+            </header>
 
-  <body>
+            <div class="hero">
+                <div class="copy">
+                    <h1 class="top-name">
+                        WELCOME!
+                    </h1>
+                    <div class="quote-background">
+                        <blockquote class="top-quote">
+                            <!-- A basic man might contain a number of different ideas,
+                            but a complex man contains a number of executed plans -->
+                        </p>
+                      </div>
+                    <a class="button" href="https://github.com/kamon-harrell">
+                        Check out my Github
+                    </a>
+                </div>
+            </div>
 
-      <div class="bannercontainer">
-        <div class="row">
-          <div class="eight columns">
-            <h1 class="title"> Welcome! </h1>
-          </div>
+            <div class="torso">
+                <div class="container">
+                    <div class="wrap">
+                        <main>
+                            <!-- <section>
+
+                                <h1>
+                                    More coming soon!
+                                </h1>
+
+                            </section> -->
+
+                            <section>
+                                <h2 id="Lists">Experience</h2>
+                                <h3 id="Unordered-Lists">Building web applications and web sites with the latest Javascript stack including,</h3>
+
+                                <ul>
+                                    <li>
+                                        Using JS to create single page applications, isomorphic web pages, modular React components and React applications.
+                                    </li>
+                                    <li>
+                                        Creating components that feed and consume API’s, server-side and client-side web pages, written with ES6 JS, transpiled down to ES5 with Babel for cross browser compatibility.
+                                    </li>
+                                    <li>
+                                        Serving things to the browser in a compressed bundle with Webpack.
+                                    </li>
+                                </ul>
+
+                                <h3 id="Ordered-Lists">My prefered web technologies to work with</h3>
+
+                                <ul>
+                                    <li>Javascript</li>
+                                    <li>Node.js</li>
+                                    <li>React with Redux</li>
+                                    <li>Express.js</li>
+                                    <li>Webpack</li>
+                                    <li>NPM</li>
+                                    <li>Firebase</li>
+                                    <li>PostgreSQL</li>
+                                    <li>SQLite</li>
+                                    <li>JQuery</li>
+                                </ul>
+
+                                <h3 id="Definition-Lists">Projects i've worked on</h3>
+
+                                <dl>
+                                    <dt> <a href="http://www.hashtagadulting.co.nz/">Adulting </a> </dt>
+                                    <dd>#Adulting Is a single page application where users can are encouraged to earn points for uploading instructional videos that teach <br>
+                                      young people basic life skills. My contributions to this project were
+                                      <ul>
+                                          <li>Pitching the idea to my team</li>
+                                          <li>Leading our team over the week long creation as a scrum master</li>
+                                          <li>Creating front end components and pages with React and Redux</li>
+                                          <li>Contributed to a prioritized backlog</li>
+                                          <li>Storing and retrieving user and site information on the server with postgreSQL </li>
+                                          <li>Designing the layout and user flow, and implementing outside authentication with Twitter, via Passport.Js. </li>
+                                          <li>You can visit the site with the link above</li>
+                                      </ul>
+                                    </dd>
+
+                                    <dt> <a href="http://www.wheycartel.com">Wheycartel.com </a> </dt>
+                                    <dd>Wheycartel is a premium whey protein subscription service, which was built with React, Bootstrap, Python, BrainTree, Node, and more. <br>
+                                      How I helped my team was
+                                      <ul>
+                                          <li>Creating a profile for users to edit their subscription and financial details</li>
+                                          <li>Cross browser testing and bug fixing, incuding IE9</li>
+                                          <li>Using Git to share code for review</li>
+                                          <li>Contributed to a prioritized backlog</li>
+                                          <li>Creating front end components and pages with React and Redux</li>
+                                          <li>Using AJAX to communicate with firebase when our users made a change to their profile</li>
+                                          <li>You can visit the site with the link above</li>
+                                      </ul>
+                                </dl>
+                            </section>
+                        </main>
+                    </div>
+                </div>
+            </div>
+
+            <footer class="primary">
+                <div class="container">
+                    <div class="wrapper">
+                        <div class="branding">
+                            <p>
+                                5858 S Danube St <br>
+                                Aurora, Colorado 80015 <br>
+                                425-280-8103
+                            </p>
+                        </div>
+                        <nav aria-label="Footer Navigation">
+                            <ul>
+                                <li>
+                                    <a href="#">Home</a>
+                                </li>
+                            </ul>
+                        </nav>
+                        <div>
+                            <ul class="social">
+                                <li class="github">
+                                    <a href="https://github.com/kamon-harrell">
+                                        <i class="fa fa-github"></i>
+                                    </a>
+                                </li>
+                                <li class="linkedin">
+                                    <a href="https://www.linkedin.com/in/kamon-harrell/">
+                                        <i class="fa fa-linkedin"></i>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="legal">
+                    <p>©2016 by HK Web Development</p>
+                </div>
+            </footer>
         </div>
-      </div>
 
-       <header class="container">
-         <div class="row">
-          <nav class="four columns">
-            <ul>
-              <li> <a href="blog/blog-template.html">Blog</a></li>
-              <li> <a href="projects.html">Projects</a></li>
-            </ul>
-          </nav>
-        </div>
-       </header><!-- /header -->
-
-
-
-        <div class="bodycontainer">
-         <div class="row">
-          <div class="twelve columns">
-           <h2>Hey there! Welcome to my website, bear with me as I learn and grow my skills as a web developer. As my skills improve, so will this site, but for now enjoy whats here!</h2>
-          </div>
-         </div>
-        </div>
-
-      <footer class="container">
-        <div>
-         Site Design by Kamon Harrell
-        </div>
-      </footer>
-  </body>
+        <script src="https://code.jquery.com/jquery-3.1.1.min.js" integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8=" crossorigin="anonymous"></script>
+        <script src="js/mobileNavigation.plugin.js" type="text/javascript"></script>
+        <script src="js/dropdown.plugin.js"></script>
+        <script src="js/searchDrawer.plugin.js"></script>
+        <script src="js/stickyHeader.plugin.js"></script>
+        <script>
+            $(function () {
+                $('header.primary.sticky').stickyHeader();
+                $('.search-drawer').searchDrawer();
+                $('nav.primary').dropdown();
+            });
+        </script>
+    </body>
 </html>
