@@ -711,26 +711,24 @@ nav.pagination li:hover:not(.active):not(.disabled) a::before {
 }
 
 .tiles > * {
-  background-color: #EEE;
   margin-bottom: 2rem;
-  padding: 2rem;
-  text-align: left;
+  text-align: center;
 }
 
 .tiles > * *:last-child {
   margin-bottom: 0;
 }
 
-@media only screen and (min-width: 669px) {
+@media only screen and (min-width: 350px) {
   .tiles {
     display: flex;
     flex-flow: row wrap;
+    flex-basis: 120px;
     margin-left: -1rem;
     margin-right: -1rem;
   }
   .tiles > * {
-    flex-basis: calc(50% - 2rem);
-    flex-shrink: 0;
+    flex-shrink: 2;
     margin-left: 1rem;
     margin-right: 1rem;
   }
@@ -1213,7 +1211,7 @@ form.search input {
   background: #191919 url(../img/Olympic.jpg) no-repeat center/cover;
   display: flex;
   flex-direction: column;
-  height: 800px;
+  height: 90vh;
   justify-content: center;
   text-align: center;
 }
