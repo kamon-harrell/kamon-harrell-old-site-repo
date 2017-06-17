@@ -766,6 +766,7 @@ a, abbr, address, article, aside, audio, b, blockquote, body, button, canvas, ca
   vertical-align: baseline;
 }
 
+
 article, aside, audio, canvas, details, figcaption, figure, footer, header, hgroup, menu, nav, section, video {
   display: block;
 }
@@ -787,6 +788,7 @@ body {
 img {
   max-width: 100%;
   vertical-align: middle;
+  height: auto;
 }
 
 ::-moz-selection {
@@ -887,6 +889,7 @@ img {
 }
 
 header.primary {
+  background-color: #191919;
   padding: 1rem 0;
   position: relative;
 }
@@ -1157,7 +1160,7 @@ nav.utility a {
 }
 
 .header-content {
-  align-items:  flex-end;;
+  align-items: center;
   display: flex;
   flex-flow: row wrap;
   justify-content: space-between;
@@ -1222,10 +1225,10 @@ form.search input {
 }
 
 .hero {
-  background: #191919 url(../img/name_plate.png) no-repeat center/cover;
+  background: #191919 url(../img/unnamed.jpg) no-repeat center/cover;
   display: flex;
   flex-direction: column;
-  height: 100vh;
+  height: 90vh;
   justify-content: center;
   text-align: center;
 }
@@ -1912,7 +1915,7 @@ table tr:nth-child(even) td {
     justify-content: space-between;
   }
   .desktop nav.primary {
-    justify-content: flex-end;
+    align-self: flex-start;
   }
   button.menu-toggle {
     display: none;
