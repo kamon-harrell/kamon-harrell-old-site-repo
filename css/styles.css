@@ -887,7 +887,6 @@ img {
 }
 
 header.primary {
-  background-color: #191919;
   padding: 1rem 0;
   position: relative;
 }
@@ -1158,7 +1157,7 @@ nav.utility a {
 }
 
 .header-content {
-  align-items: center;
+  align-items:  flex-end;;
   display: flex;
   flex-flow: row wrap;
   justify-content: space-between;
@@ -1223,10 +1222,10 @@ form.search input {
 }
 
 .hero {
-  background: #191919 url(../img/Olympic.jpg) no-repeat center/cover;
+  background: #191919 url(../img/name_plate.png) no-repeat center/cover;
   display: flex;
   flex-direction: column;
-  height: 90vh;
+  height: 100vh;
   justify-content: center;
   text-align: center;
 }
@@ -1913,7 +1912,7 @@ table tr:nth-child(even) td {
     justify-content: space-between;
   }
   .desktop nav.primary {
-    align-self: flex-start;
+    justify-content: flex-end;
   }
   button.menu-toggle {
     display: none;
