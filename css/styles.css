@@ -740,7 +740,7 @@ nav.pagination li:hover:not(.active):not(.disabled) a::before {
     flex-basis: 120px;
     margin-left: -1rem;
     margin-right: -1rem;
-    justify-content: center;
+    text-align: center;
   }
   .tiles > * {
     flex-shrink: 2;
@@ -1930,7 +1930,6 @@ table tr:nth-child(even) td {
   }
   .torso .wrap main {
     flex: 1 1 auto;
-    padding-right: 2rem;
   }
   .torso .wrap aside.primary {
     flex: 0 0 25%;
