@@ -727,7 +727,6 @@ nav.pagination li:hover:not(.active):not(.disabled) a::before {
 
 .tiles > * {
   margin-bottom: 2rem;
-  text-align: center;
 }
 
 .tiles > * *:last-child {
@@ -741,6 +740,7 @@ nav.pagination li:hover:not(.active):not(.disabled) a::before {
     flex-basis: 120px;
     margin-left: -1rem;
     margin-right: -1rem;
+    justify-content: center;
   }
   .tiles > * {
     flex-shrink: 2;
@@ -1382,6 +1382,10 @@ footer.primary .legal a {
   text-align: center;
 }
 
+.segment_content {
+  text-align: justify;
+}
+
 h1,
 h2,
 h3,
@@ -1502,10 +1506,6 @@ ul {
 dt {
   font-weight: bold;
   padding-left: 0.5em;
-}
-
-dd {
-  padding-left: 2em;
 }
 
 pre {
