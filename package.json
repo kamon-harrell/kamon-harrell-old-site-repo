@@ -1,15 +1,12 @@
 {
-  "name": "boilerplate",
+  "name": "Portfolio",
   "version": "1.0.0",
-  "description": "A light, customizable frontend starter kit and component library",
-  "author": "Imarc",
+  "description": "My personal portfolio",
+  "author": "Imarc + Kamon-Harrell",
   "license": "Apache-2.0",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/kamon-harrell/kamon-harrell.github.io"
-  },
-  "bugs": {
-    "url": "https://github.com/imarc/boilerplate/issues"
   },
   "homepage": "https://github.com/imarc/boilerplate#readme",
   "private": true,
