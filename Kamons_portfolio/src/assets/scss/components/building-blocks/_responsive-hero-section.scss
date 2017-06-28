@@ -1,4 +1,4 @@
-$hero-height: 65vh;
+$hero-height: 92vh;
 
 .hero-section {
   background: url("../img/Attachment-1.jpeg") 50% no-repeat;
@@ -11,7 +11,6 @@ $hero-height: 65vh;
 
   .hero-section-text {
     color: $white;
-    font-family: "Roboto";
-    text-shadow: 1px 1px 1px $black;
+    text-shadow: 1px 1px  $black;
   }
 }

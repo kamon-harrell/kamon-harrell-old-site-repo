@@ -12,5 +12,7 @@ $work-feature-image-offset-padding: 10px 0;
 }
 
 .work-feature-block-small-images {
-  text-align: center;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
 }
